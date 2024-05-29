@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Calculadora de IMC</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <main class="conteiner">
+        <div class="img">
+            <img src="imgs/Healthy lifestyle-amico.svg" alt="">
+        </div>
+        <div class="calculator">
+            <h1>Calculadora - IMC</h1>
+            <label for="kg"> Peso em KG:</label>
+            <input class="input kg" type="number" placeholder="KG">
+            <label for="m"> Altura em metros:</label>
+            <input class="input m" type="number" placeholder="M">
+            <button class="calcular"> Calcular </button>
+            <div class="tudo all">
+                <hr>
+            <div class="res">
+                <div class="imc">
+                    <span class="valor"> 32 </span>
+                    <p>Seu IMC:</p>
+                </div>
+                <div class="mensagem">
+                    <Span class="msg"> </Span> 
+                </div>
+                
+            </div>
+            <div class="HrowBottom">
+                <hr>
+            </div>
+            <div class="maisinfos">
+                <a target="_blank" class="moreinfos" href="https://www.tjdft.jus.br/informacoes/programas-projetos-e-acoes/pro-vida/dicas-de-saude/pilulas-de-saude/o-que-o-indice-de-massa-corporal-imc-diz-sobre-sua-saude">Mais informações</a>
+                <div class="svg"> 
+                     <svg class="w-6 h-6 text-gray-800 dark:text-white" aria-hidden="true" xmlns="http://www.w3.org/2000/svg" width="18" height="20" fill="none" viewBox="0 0 24 24">
+                     <path stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M18 14v4.833A1.166 1.166 0 0 1 16.833 20H5.167A1.167 1.167 0 0 1 4 18.833V7.167A1.166 1.166 0 0 1 5.167 6h4.618m4.447-2H20v5.768m-7.889 2.121 7.778-7.778"/>
+               </svg>
+             </div>
+             </div>
+            </div>
+        </div>
+    </main>
+    <script src="script.js"></script>
+</body>
+</html>

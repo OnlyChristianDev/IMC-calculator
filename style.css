@@ -1,0 +1,233 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600&display=swap');
+
+body {
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    font-family: "Poppins" , 'Arial';
+    height: 100vh;
+    width: 100vw;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #18181B;
+}
+
+.conteiner {
+    gap: 50px;
+    display: flex;
+}
+.img {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 400px;
+}
+.calculator {
+    box-shadow: 5px 5px 5px rgba(0, 0, 0, 0.699);
+    display: grid;
+    border-radius: 10px;
+    text-align: center;
+    width: 350px;
+    height: 400px;
+    padding: 19px;
+    background-color: #262626;
+    color: white;
+}
+label {
+    text-align: start;
+}
+
+input[type=number]::-webkit-inner-spin-button,
+input[type=number]::-webkit-outer-spin-button {
+    -webkit-appearance: none;
+    margin: 0;
+}
+
+input[type=number]::-ms-inner-spin-button,
+input[type=number]::-ms-outer-spin-button {
+    display: none;
+}
+
+input{
+    height: 45px;
+    border: none;
+    outline: none;
+}
+input::placeholder {
+    text-align: end;
+}
+button{
+    font-size: 15px;
+    font-weight: bold;
+    color: white;
+    height: 35px;
+    margin-top: 10px;
+    border: none;
+    background-color: #BA68C8;
+    cursor: pointer;
+}
+
+button:hover {
+    filter: brightness(0.8);
+
+}
+h1 {
+    text-align: start;
+}
+h1::after {
+    margin-left: 2px;
+    content: "";
+    display: block;
+    width: 35%; 
+    height: 2px; 
+    background-color:  #BA68C8;
+    margin-top: -7px; /
+}
+.valor {
+    font-weight: bold;
+    font-size: 40px;
+}
+
+p {
+    margin-top: -15px;
+}
+.res {
+    margin-top: -10px;
+    align-items: center;
+    display: flex;
+    gap: 80px;
+    justify-content: space-between;
+
+}
+.mensagem {
+    margin-top: -10px;
+}
+.all {
+    display: none;
+}
+.HrowBottom {
+    margin-top: -20px;
+}
+
+.maisinfos {
+    gap: 5px;
+    cursor: pointer;
+    margin-top: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+svg {
+    margin-top: 7px;
+}
+.maisinfos:hover {
+    filter: brightness(0.8);
+}
+@media (max-width:834px) {
+    .img {
+        width: 325px;
+    }
+    .res {
+        justify-content: space-between;
+    }
+}
+@media (max-width: 768px) {
+    .conteiner {
+        display: grid;
+        gap: 20px;
+        justify-items: center;
+    }
+    .img {
+        order: 2;
+        width: 375px;
+    }
+    .calculator {
+        margin-top: 250px;
+        order: 1;
+        width: 140%;
+        height: auto;
+        padding: 10px;
+    }
+    .res {
+        justify-content: space-between;
+    }
+    h1 {
+        font-size: 41px;
+    }
+    h1::after {
+        margin-left: 2px;
+        content: "";
+        display: block;
+        width: 28%; 
+        height: 2px; 
+        background-color:  #BA68C8;
+        margin-top: -7px; /
+    }
+  
+}
+@media (max-width: 610px) {
+    .conteiner {
+        display: grid;
+        gap: 20px;
+        justify-items: center;
+    }
+    .img {
+        order: 2;
+        width: 375px;
+    }
+    .calculator {
+        margin-top: 150px;
+        order: 1;
+        width: 80%;
+        height: auto;
+        padding: 10px;
+    }
+    h1 {
+        font-size: 29px;
+    }
+}
+
+@media (max-width: 375px) {
+    .conteiner {
+        display: grid;
+        gap: 20px;
+        justify-items: center;
+    }
+    .img {
+        order: 2;
+        width: 320px;
+    }
+    .calculator {
+        margin-top: 80px;
+        order: 1;
+        width: 85%;
+        height: auto;
+        padding: 10px;
+    }
+    h1 {
+        font-size: 27px;
+    }
+}
+
+@media (max-width: 320px) {
+    .conteiner {
+        display: grid;
+        gap: 20px;
+        justify-items: center;
+    }
+    .img {
+        order: 2;
+        width: 280px;
+    }
+    .calculator {
+        margin-top: 50px;
+        order: 1;
+        width: 80%;
+        height: auto;
+        padding: 10px;
+    }
+    h1 {
+        font-size: 22px;
+    }
+}
