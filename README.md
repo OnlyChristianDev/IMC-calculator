@@ -13,5 +13,5 @@ Este é um projeto simples usando JavaScript como linguagem principal para desen
 - **Html5** <img src="https://icons.veryicon.com/256/System/Plex/Other%20html%205.png" alt="Html" width="40">
 
 ## Site:
-url:
+url: https://imc-calculator-steel.vercel.app/
 
