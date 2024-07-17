@@ -48,7 +48,7 @@ document.addEventListener('wheel', (event) => {
   });
 
   let startY;
-  let scrollSpeedMultiplier = 0.7; // Ajuste este valor conforme necessário para controlar a velocidade
+  let scrollSpeedMultiplier = 0.7; 
   
   // Detectar início do toque
   document.addEventListener('touchstart', (event) => {
@@ -60,9 +60,9 @@ document.addEventListener('wheel', (event) => {
     const currentY = event.touches[0].clientY;
     const deltaY = startY - currentY;
     window.scrollBy({
-      top: deltaY * scrollSpeedMultiplier, // Aumenta a velocidade de rolagem
+      top: deltaY * scrollSpeedMultiplier, 
       left: 0,
-      behavior: 'auto' // Rolar automaticamente sem suavização
+      behavior: 'auto' 
     });
     startY = currentY;
   });
