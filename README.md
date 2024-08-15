@@ -19,6 +19,3 @@ Uma aplicação simples para calcular o Índice de Massa Corporal (IMC). Este pr
 Você pode visualizar e testar a aplicação online através do seguinte link:
 
 [Visualizar Aplicação ao Vivo](https://imc-calculator-steel.vercel.app/)
-
-Se você preferir testar localmente, siga as instruções de instalação abaixo.
-
