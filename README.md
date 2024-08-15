@@ -1,17 +1,24 @@
-# Meu Projeto
+# Calculadora de IMC
 
-Este é um projeto simples usando JavaScript como linguagem principal para desenvolver uma calculadora de IMC corporal!
+Uma aplicação simples para calcular o Índice de Massa Corporal (IMC). Este projeto foi desenvolvido com HTML, CSS e JavaScript e permite ao usuário inserir seu peso e altura para calcular seu IMC e verificar a classificação correspondente.
 
-## Tecnologias Usadas
+## Funcionalidades
 
-- **JavaScript**<img src="https://www.freepnglogos.com/uploads/javascript-png/javascript-logo-transparent-logo-javascript-images-3.png" alt="JavaScript" width="60">
+- **Calcular IMC:** Insira seu peso e altura para calcular seu IMC.
+- **Classificação:** Exibe a classificação do IMC de acordo com a tabela da OMS (Organização Mundial da Saúde).
+- **Design Responsivo:** A aplicação é responsiva e funciona bem em diferentes tamanhos de tela.
 
+## Tecnologias Utilizadas
 
-- **Css3** <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/6/62/CSS3_logo.svg/2048px-CSS3_logo.svg.png" alt="Css" width="30">
+- **HTML:** Estruturação da página.
+- **CSS:** Estilização e layout.
+- **JavaScript:** Lógica para cálculo do IMC e manipulação do DOM.
 
+## Demonstração
 
-- **Html5** <img src="https://icons.veryicon.com/256/System/Plex/Other%20html%205.png" alt="Html" width="40">
+Você pode visualizar e testar a aplicação online através do seguinte link:
 
-## Site:
-url: https://imc-calculator-steel.vercel.app/
+[Visualizar Aplicação ao Vivo](https://imc-calculator-steel.vercel.app/)
+
+Se você preferir testar localmente, siga as instruções de instalação abaixo.
 
